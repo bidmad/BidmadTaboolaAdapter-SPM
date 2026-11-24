@@ -16,7 +16,7 @@ let package = Package(
     .library(name: "BidmadTaboolaAdapter", targets: ["BidmadTaboolaAdapterTarget"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.5")),
+    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.7")),
     .package(url: "https://github.com/taboola/taboola-spm-ios-sdk.git", exact: "3.9.12"),
   ],
   targets: [
@@ -30,8 +30,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BidmadTaboolaAdapter",
-      url: "https://github.com/bidmad/BidmadTaboolaAdapter-SPM/releases/download/7.2.0-dev.5+3.9.12/BidmadTaboolaAdapter.xcframework.zip",
-      checksum: "e17ad61c051263cc9668de19d15295fbfe0f6df8035ea18f1b5691fe36b55a9a"
+      url: "https://github.com/bidmad/BidmadTaboolaAdapter-SPM/releases/download/7.2.0-dev.7+3.9.12/BidmadTaboolaAdapter.xcframework.zip",
+      checksum: "d7ccc809f4f2402c50f5afd9809a8d8cb1083e26f1ffdf4334cc569463bf74be"
     ),
   ]
 )
